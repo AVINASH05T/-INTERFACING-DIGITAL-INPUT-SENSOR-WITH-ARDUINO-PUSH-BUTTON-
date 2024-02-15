@@ -1,8 +1,8 @@
 ## INTERFACING DIGITAL INPUT SENSOR WITH ARDUINO PUSH BUTTON
 ## DATE :
-## NAME :																			             
-## ROLLNUMBER :
-## DEPARTMENT 
+## NAME : AVINASH T																			             
+## ROLLNUMBER : 212223230026
+## DEPARTMENT : ARTIFICIAL INTELLIGENCE AND DATA SCIENCE
 
 
 ## AIM:
@@ -39,6 +39,7 @@ FIGURE-01
 ![image](https://user-images.githubusercontent.com/36288975/163530431-4d390e98-0942-42d8-95b8-f57d348e6ad8.png)
 
 FIGURE-02
+
 ## PROCEDURE 
  Open tinker cad account 
 1.	Select Arduino uno , bread board , digital input and digital output 
@@ -62,7 +63,31 @@ FIGURE -03
 
 
 ## PROGRAM 
- 
+int led= 4;
+int pushbutton=3;
+void setup()
+{
+  pinMode(led, OUTPUT);
+  pinMode(pushbutton,INPUT);
+}
+
+void loop()
+{
+  int pb;
+  pb=digitalRead(pushbutton);
+   if(pb==HIGH)
+  {
+  digitalWrite(led, HIGH);
+  delay(500); // Wait for 1000 millisecond(s)
+  digitalWrite(led, LOW);
+  delay(500); // Wait for 1000 millisecond(s)
+}
+  else
+  {
+    delay(500);
+     digitalWrite(led,LOW);
+  }    
+} 
  
 
 
