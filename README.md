@@ -55,14 +55,14 @@ FIGURE-02
 
 ![image](https://user-images.githubusercontent.com/36288975/163530437-87a0afbd-b3c9-44ad-b907-5de63486fb9d.png)
 
-
-
 FIGURE -03
 
+![image](https://github.com/AVINASH05T/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/151514286/be71ac2c-e966-487f-a651-4e147a574030)
 
 
+## PROGRAM:
+```c
 
-## PROGRAM 
 int led= 4;
 int pushbutton=3;
 void setup()
@@ -88,19 +88,12 @@ void loop()
      digitalWrite(led,LOW);
   }    
 } 
- 
+```
 
 
 
 
 
-
-
-
-
- 
- 
- 
 
 
 
@@ -108,3 +101,7 @@ void loop()
 
 [My image](username.github.com/repository/img/image.jpg)
 
+![image](https://github.com/AVINASH05T/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/151514286/2e872b26-caa7-4147-9ca0-09e7bda69e3f)
+
+## RESULT:
+Interfacing with Push button and LED was executed successfully.
