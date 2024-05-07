@@ -1,11 +1,9 @@
 ## EXPERIMENT NO:1  
 ## INTERFACING DIGITAL INPUT SENSOR WITH ARDUINO PUSH BUTTON
-## DATE :
+## DATE :26-02-2024
 ## NAME : AVINASH T																			             
 ## ROLLNUMBER : 212223230026
 ## DEPARTMENT : ARTIFICIAL INTELLIGENCE AND DATA SCIENCE
-
-
 ## AIM:
 To interface a digital input (push button) and blink and LED upon activation.
 ## COMPONENTS REQUIRED:
@@ -33,14 +31,10 @@ SRAM	1 KB (ATmega168) or 2 KB (ATmega328)
 EEPROM	512 bytes (ATmega168) or 1 KB (ATmega328)
 Clock Speed	16 MHz
 ## PIN DIAGRAM FOR ATMEGA 328
- 
 ![image](https://user-images.githubusercontent.com/36288975/163530394-115baee4-7ed1-49fe-9cce-d7b625e11e85.png)
-
 FIGURE-01
 ![image](https://user-images.githubusercontent.com/36288975/163530431-4d390e98-0942-42d8-95b8-f57d348e6ad8.png)
-
 FIGURE-02
-
 ## PROCEDURE 
  Open tinker cad account 
 1.	Select Arduino uno , bread board , digital input and digital output 
@@ -48,22 +42,12 @@ FIGURE-02
 3.	Develop the program and compile it for any errors 
 4.	 .Execute the program 
 5.	Check the simulation 
-
-
-
 ## CIRCUIT DIAGRAM 
-
-
 ![image](https://user-images.githubusercontent.com/36288975/163530437-87a0afbd-b3c9-44ad-b907-5de63486fb9d.png)
-
 FIGURE -03
-
 ![image](https://github.com/AVINASH05T/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/151514286/be71ac2c-e966-487f-a651-4e147a574030)
-
-
 ## PROGRAM:
 ```c
-
 int led= 4;
 int pushbutton=3;
 void setup()
@@ -90,19 +74,8 @@ void loop()
   }    
 } 
 ```
-
-
-
-
-
-
-
-
 ## OUTPUT OF SIMULATION :
-
 [My image](username.github.com/repository/img/image.jpg)
-
 ![image](https://github.com/AVINASH05T/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/151514286/2e872b26-caa7-4147-9ca0-09e7bda69e3f)
-
 ## RESULT:
 Interfacing with Push button and LED was executed successfully.
